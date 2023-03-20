@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+  <!-- Custom CSS -->
+  <style>
+    /* Triad color scheme: https://color.adobe.com/triad-color-scheme-color-theme-1770497/ */
+    :root {
+      --primary: #F57C00;
+      /* Orange */
+      --secondary: #33b5e5;
+      /* Light blue */
+      --tertiary: #00C851;
+      /* Green */
+    }
+
+    /* Navbar */
+    nav {
+      background-color: var(--primary);
+      color: #fff;
+    }
+
+    nav a {
+      color: #fff;
+    }
+
+    /* Carousel */
+    .carousel {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      overflow-x: auto;
+      margin: 20px 0;
+    }
+    .full-height{
+      height: 100vh;
+    }
+    .card {
+      width: 300px;
+      margin: 10px 20px 20px 10px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    .experience {
+      display: flex;
+      align-items: center;
+      margin: 20px;
+    }
+
+    .experience .details {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .experience .details h4 {
+      margin: 0;
+    }
+
+    .experience .details p {
+      margin: 0;
+      color: #999;
+    }
+
+    .experience .details ul {
+      margin: 10px 0 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .experience .details li {
+      margin: 5px 0;
+    }
+
+    /* Footer */
+    footer {
+      background-color: var(--primary);
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    footer a {
+      color: #fff;
+    }
+
+    /* Style for screens wider than 600px */
+    @media (min-width: 600px) {
+      .card {
+        width: 200px;
+        margin: 10px 20px;
+      }
+    }
+
+    /* Style for screens between 400px and 600px */
+    @media (min-width: 400px) and (max-width: 600px) {
+      .card {
+        width: 90%;
+        margin: 10px auto;
+      }
+    }
+
+    /* Style for screens narrower than 400px */
+    @media (max-width: 400px) {
+      .carousel {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .card {
+        width: 90%;
+        margin: 20px auto;
+      }
+
+      .experience {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+    }
+  </style>
+
+  <title>My Webpage</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">My Webpage</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--need completeion-->
+  <!-- Carousel -->
+  <div class="container mt-5" id="home">
+    <h1>Welcome to My Website!</h1>
+    <p>
+      Welcome to my portfolio website! My name is Jane Doe and I am a beginner AI user and programmer. I have always
+      been fascinated by the potential of technology to improve and transform our world, and I am excited to be starting
+      my journey in the field of artificial intelligence and programming.
+      On this website, you will find a selection of my projects and experiences that showcase my skills and interests.
+      From AI-powered chatbots to web applications, I am constantly learning and exploring new technologies and
+      techniques.
+      I am always looking for opportunities to grow and learn, and I am open to new challenges and collaborations. Thank
+      you for visiting my website, and I hope you enjoy exploring my work
+    </p>
+    <img src="https://picsum.photos/id/29/600/600" class="img-fluid rounded" alt="Mountain">
+  </div>
+  <div class="carousel">
+    <div class="card text-center">
+      <div class="card-body">
+        <h2 class="card-title">About Me</h2>
+        <div class="experience">
+
+          <div class="details">
+            <h4>Company 1</h4>
+            <i>Position 1</i>
+            <p>Description of position 1</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card text-center">
+      <div class="card-body">
+        <h2 class="card-title">My Experience</h2>
+        <div class="experience">
+
+          <div class="details">
+            <h4>Company 2</h4>
+            <i>Position 2</i>
+            <p>Description of position 2</p>
+            <ul>
+              <li><i class="fa fa-check" aria-hidden="true"></i> Responsibility 1</li>
+              <li><i class="fa fa-check" aria-hidden="true"></i> Responsibility 2</li>
+              <li><i class="fa fa-check" aria-hidden="true"></i> Responsibility 3</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card text-center">
+      <div class="card-body">
+        <h2 class="card-title">My Experience</h2>
+        <div class="experience">
+
+          <div class="details">
+            <h4>Company 2</h4>
+            <i>Position 2</i>
+            <p>Description of position 2</p>
+            <ul>
+              <li><i class="fa fa-check" aria-hidden="true"></i> Responsibility 1</li>
+              <li><i class="fa fa-check" aria-hidden="true"></i> Responsibility 2</li>
+              <li><i class="fa fa-check" aria-hidden="true"></i> Responsibility 3</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card text-center">
+      <div class="card-body">
+        <h2 class="card-title">My Experience</h2>
+        <div class="experience">
+
+          <div class="details">
+            <h4>Company 3</h4>
+            <i>Position 3</i>
+            <p>Description of position 3</p>
+            <ul>
+              <li><i class="fa fa-check" aria-hidden="true"></i> Responsibility 1</li>
+              <li><i class="fa fa-check" aria-hidden="true"></i> Responsibility 2</li>
+              <li><i class="fa fa-check" aria-hidden="true"></i> Responsibility 3</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card text-center">
+      <div class="card-body">
+        <h2 class="card-title">My Experience</h2>
+        <div class="experience">
+
+          <div class="details">
+            <h4>Company 4</h4>
+            <i>Position 4</i>
+            <p>Description of position 4</p>
+            <ul>
+              <li><i class="fa fa-check" aria-hidden="true"></i> Responsibility 1</li>
+              <li><i class="fa fa-check" aria-hidden="true"></i> Responsibility 2</li>
+              <li><i class="fa fa-check" aria-hidden="true"></i> Responsibility 3</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container section full-height mt-5" id="contact">
+    <h1>Contact</h1>
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="py-3">
+    <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+    <a href="#"><i class="fab fa-github fa-2x"></i></a>
+    <a href="#"><i class="fa fa-envelope fa-2x"></i></a>
+    <p>Copyright 2021</p>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.16.6/dist/umd/popper.min.js"
+    integrity="sha384-zBX+AO3JQ7qhAM3fU6YUhU+aRkJ7eP6nDvlm0ikXZ6G1Q2q0a6U0l6UfZ6UfhRp" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
